@@ -6,13 +6,13 @@ ms
 
 import pytest
 
-from pythoncode.calculator import Calculator
+from pythoncode.cacl import cacl
 
 
 class Testcacl:
     def setup_class(self):
         print("计算开始")
-        self.jsq = Calculator()
+        self.jsq = cacl()
 
     def teardown_class(self):
         print("计算结束")
